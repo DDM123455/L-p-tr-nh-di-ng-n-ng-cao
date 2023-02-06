@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hinhmau2"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".RaFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/ChamCong"
+        android:layout_width="600px"
+        android:layout_height="600px"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="1px"
+        android:layout_marginTop="190px"
+
+        android:layout_marginBottom="390px"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardBackgroundColor="@color/bluenhat"
+
+
+        app:cardCornerRadius="90px"
+        tools:ignore="PxUsage">
+
+        <TextView
+            android:id="@+id/imageView"
+            android:layout_width="168dp"
+            android:layout_height="116dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="170px"
+            android:width="500px"
+            android:height="500px"
+            android:text="Chấm công"
+            android:textSize="100px"
+
+            tools:layout_editor_absoluteX="106dp"
+            tools:layout_editor_absoluteY="151dp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120px"
+        android:layout_marginTop="1200px"
+        android:text="Thời gian vào : 9:00 AM "
+        android:textColor="@color/bluenhat"
+
+        android:textSize="40px"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="600px"
+        android:layout_marginTop="1200px"
+        android:text="Thời gian Ra : 17:00 PM"
+        android:textColor="@color/bluenhat"
+
+
+
+        android:textSize="40px"
+        android:textStyle="bold" />
+
+</FrameLayout>

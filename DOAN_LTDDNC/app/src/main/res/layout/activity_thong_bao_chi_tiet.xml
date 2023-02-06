@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hinhmau"
+    tools:context=".ThongBaoChiTietActivity">
+
+    <TextView
+        android:id="@+id/tieudee"
+        android:layout_width="258dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="148dp"
+
+        android:background="@color/lightyellow"
+        android:text="TextView"
+        app:circularflow_radiusInDP="90px"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ndd"
+        android:layout_width="255dp"
+        android:layout_height="389dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/lightyellow"
+        android:text="TextView"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.94" />
+
+    <TextView
+        android:id="@+id/ngayy"
+        android:layout_width="249dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginBottom="564dp"
+        android:background="@color/lightyellow"
+        android:gravity="center"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="94dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="148dp"
+        android:background="@drawable/tron"
+        android:gravity="center"
+        android:text="Tiêu đề thông báo"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="93dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="12dp"
+
+        android:layout_marginTop="52dp"
+        android:background="@drawable/tron"
+        android:gravity="center"
+        android:text="Thời gian ra thông báo"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="94dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/tron"
+        android:gravity="center"
+        android:text="Nội dung chi tiết thông báo"
+        android:textColor="@color/blue"
+
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.441" />
+</androidx.constraintlayout.widget.ConstraintLayout>

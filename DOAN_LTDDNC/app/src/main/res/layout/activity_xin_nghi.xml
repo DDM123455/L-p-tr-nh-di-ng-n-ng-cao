@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".XinNghiActivity">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/edtTieuDe"
+        android:layout_width="389dp"
+        android:layout_height="89dp"
+        android:background="@color/lightyellow"
+        android:hint="    Nhập Tiêu Đề"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.272"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints,UnknownId"
+        tools:layout_editor_absoluteY="25dp">
+
+    </com.google.android.material.textfield.TextInputEditText>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/edtlydo"
+
+        android:layout_width="385dp"
+        android:layout_height="375dp"
+        android:layout_marginBottom="96dp"
+        android:background="@color/bluenhat"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint=" Nhập  Lý Do Xin Nghỉ"
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.615"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnsend"
+        android:layout_width="167dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/blue"
+        android:text="Send"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

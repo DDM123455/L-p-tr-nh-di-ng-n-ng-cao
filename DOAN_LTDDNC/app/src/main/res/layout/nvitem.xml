@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/rvh_food_image"
+        android:layout_width="100dp"
+        android:layout_height="160dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/mat" />
+
+    <TextView
+        android:id="@+id/rvh_food_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="48dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Họ Và Tên"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/rvh_food_image"
+        app:layout_constraintTop_toTopOf="@+id/rvh_food_image" />
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Địa Chỉ Gmail "
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="@+id/rvh_food_image"
+        app:layout_constraintStart_toStartOf="@+id/rvh_food_name"
+        app:layout_constraintTop_toBottomOf="@+id/rvh_food_name"
+        app:layout_constraintVertical_bias="0.181" />
+
+    <TextView
+        android:id="@+id/tennv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:text="TextView"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="@+id/rvh_food_image"
+        app:layout_constraintStart_toEndOf="@+id/rvh_food_image"
+        app:layout_constraintTop_toTopOf="@+id/rvh_food_image"
+        app:layout_constraintVertical_bias="0.34" />
+
+    <TextView
+        android:id="@+id/gmailnv"
+        android:layout_width="166dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="20dp"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="@+id/textview"
+        app:layout_constraintStart_toEndOf="@+id/textview" />
+</androidx.constraintlayout.widget.ConstraintLayout>

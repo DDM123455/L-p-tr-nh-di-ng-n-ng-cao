@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/profile2"
+    tools:context=".AboutUsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="312dp"
+        android:text="Ứng dụng của chúng tôi: là ứng dụng quản lý nhân viên trên nền tảng Android. Ứng dụng được thiết
+kế bằng ngôn ngữ JAVA giúp công ty quản lý nhân viên thông qua chức năng chấm
+công, xem lương, xem thông tin nhân viên…, cung cấp các chức năng tiện dụng cho
+nhân viên và có phần CSDL được quản lý thông qua Firebase, phần giao diện được
+thiết kế trên nền tảng android với bộ thư viện Adroid Jetpack.
+"
+        android:textColor="@color/black"
+        android:textSize="50px"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="27dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="365dp"
+        android:layout_height="252dp"
+        android:text=" Ứng dụng gồm các chức năng:
+                                        o Chức năng đăng nhập với tài khoản được cấp.
+o LogOut.
+o Quên mật khẩu
+o Đổi mật khẩu, cập nhật thông tin người dùng.
+o Xem thông tin Profile.
+o Xem bảng lương.
+o Chấm công.
+o Xem thông báo.
+o Tìm kiếm nhân viên."
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="360dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

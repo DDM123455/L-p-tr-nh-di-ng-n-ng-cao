@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/luong"
+    tools:context=".LuongActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="1200px"
+        app:cardCornerRadius="50px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.405">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="51dp"
+            android:layout_marginLeft="50px"
+            android:layout_marginTop="150px"
+            android:text="Số Ngày Đi Trễ: "
+
+            android:textSize="60px"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Songaytre"
+            android:layout_width="74dp"
+            android:layout_height="85dp"
+            android:layout_marginLeft="700px"
+
+            android:layout_marginTop="150px"
+            android:text="29"
+            android:textSize="60px"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="59dp"
+            android:layout_height="225dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="50px"
+            android:layout_marginTop="-150px"
+            app:srcCompat="@drawable/doc" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="51dp"
+            android:layout_marginLeft="50px"
+            android:layout_marginTop="400px"
+            android:text="Số Ngày Đi Làm:"
+
+
+            android:textSize="60px"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Songaydi"
+            android:layout_width="74dp"
+            android:layout_height="85dp"
+            android:layout_marginLeft="700px"
+
+            android:layout_marginTop="400px"
+            android:text="29"
+            android:textSize="60px"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="51dp"
+            android:layout_marginLeft="50px"
+            android:layout_marginTop="600px"
+            android:text="Lương Cơ Bản:"
+
+
+            android:textSize="60px"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/luongcoban"
+            android:layout_width="146dp"
+            android:layout_height="86dp"
+            android:layout_marginLeft="700px"
+
+            android:layout_marginTop="600px"
+            android:text="29"
+            android:textSize="60px"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="51dp"
+            android:layout_marginLeft="50px"
+            android:layout_marginTop="950px"
+            android:text="Lương Của Bạn là:"
+
+
+            android:textSize="60px"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/luongthang"
+            android:layout_width="152dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="700px"
+
+            android:layout_marginTop="950px"
+            android:text="29"
+            android:textSize="60px"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

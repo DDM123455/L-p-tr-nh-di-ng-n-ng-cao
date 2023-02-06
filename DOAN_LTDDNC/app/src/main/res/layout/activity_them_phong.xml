@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThemPhongActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="638dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/mediumSpace">
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/TvMaPhong"
+                android:layout_width="367dp"
+
+                android:visibility="gone"
+                android:layout_height="16dp"
+                android:hint="Mã Phòng" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="@dimen/mediumSpace">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/TenPhong"
+                android:layout_width="360dp"
+                android:visibility="gone"
+                android:layout_height="15dp"
+                android:hint="Tên Phòng" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnTenPhong"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/mediumSpace"
+            android:layout_marginEnd="@dimen/smallSpace"
+            android:background="@color/blue"
+            android:paddingLeft="@dimen/smallSpace"
+            android:paddingRight="@dimen/smallSpace"
+            android:text="Thêm Phòng"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/mediumFontSize"
+            android:textStyle="normal" />
+
+
+        <EditText
+            android:id="@+id/searchEdt"
+            android:layout_width="385dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="50px"
+            android:layout_marginBottom="50px"
+            android:background="@color/bluenhat"
+
+            android:hint="   Tìm kiếm ở đây" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/home_phong_rv"
+
+            android:layout_width="401dp"
+            android:layout_height="544dp"
+            android:padding="@dimen/mediumSpace"
+            tools:listitem="@layout/phongitem" />
+    </LinearLayout>
+
+</FrameLayout>
